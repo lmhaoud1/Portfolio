@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    height: 10vh;
+    background-color: aqua;
+}
+
+main{
+min-height: 80vh;
+/* background-color: rgb(202, 28, 164); */
+background-color: rgba(225, 189, 250, 0.637);
+
+}
+
+footer{
+height: 10vh;
+background-color: darkkhaki;
+}
+
+.divPro{
+/* background-color: rgba(225, 189, 250, 0.637); */
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap; 
+width: 80%;
+margin-left: 10%;
+padding-top: 30px;
+}
+
+.imgPro{
+max-height: 300px;
+max-width: 300px;
+flex: 1;
+margin: 10px;
+box-shadow: 10px 10px rgba(128, 128, 128, 0.486);
+border-radius: 5%;
+
+}
